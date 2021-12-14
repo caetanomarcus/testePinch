@@ -109,3 +109,7 @@ function init() {
  el.onpointerout = pointerup_handler;
  el.onpointerleave = pointerup_handler;
 }
+
+window.onload = init();
+
+console.log('oi')
